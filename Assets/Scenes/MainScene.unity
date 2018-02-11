@@ -317,17 +317,17 @@ Prefab:
     - target: {fileID: 114863303718064960, guid: e8465ae5c48b0d243a1dae911a2bd888,
         type: 2}
       propertyPath: jumpSpeed
-      value: 400
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 114863303718064960, guid: e8465ae5c48b0d243a1dae911a2bd888,
         type: 2}
       propertyPath: decelerationPercentage
-      value: 15
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 114863303718064960, guid: e8465ae5c48b0d243a1dae911a2bd888,
         type: 2}
       propertyPath: speed
-      value: 1
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1575930669770990, guid: e8465ae5c48b0d243a1dae911a2bd888, type: 2}
       propertyPath: m_TagString
