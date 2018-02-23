@@ -3,18 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
-
-
+	
+	//======================================================
+	//Serialized variables
+	//======================================================
 	[SerializeField] private float speed;
-	[SerializeField] private float jumpSpeed;
 	[SerializeField] private float decelerationPercentage;
 
+	[SerializeField] private float jumpSpeed;
+	[SerializeField] private float fallingMultiplier;
+	[SerializeField] private int numberOfJumps;
+
+	//======================================================
+	//private physics-related variables
+	//======================================================
 	private Rigidbody2D playerRig;
 	private SpriteRenderer playerSprite;
-	//private BoxCollider2D playerCollider;
 	private Animator playerAnimator;
 
+	//======================================================
+	//private variables
+	//======================================================
+	private int jumpNumber;
 	private bool isJumping = false;
+	private bool isFalling = false;
+
+	//======================================================
+	//Constants
+	//======================================================
+	//private const int NUMBER_OF_JUMPS = numberOfJumps;
 
 	// Use this for initialization
 	void Start () {
@@ -28,6 +45,7 @@ public class PlayerMove : MonoBehaviour {
 	void Update ()
 	{
 		Utils.DecelerateX(ref playerRig, decelerationPercentage);
+		//manageMaxJumpHeight ();
 
 		if (Input.GetKey (KeyCode.D)) 
 		{
@@ -46,44 +64,48 @@ public class PlayerMove : MonoBehaviour {
 			playerAnimator.SetBool ("isWalking", false);
 		}
 
-		if (Input.GetKey (KeyCode.Space)) 
+		if (Input.GetKeyDown (KeyCode.Space)) 
 		{
-			if (!isJumping) 
+			if (jumpNumber != 0) 
 			{
 				isJumping = true;
+				jumpNumber--;
+
+				playerRig.velocity = new Vector2 (playerRig.velocity.x, 0);
 				playerRig.AddForce(new Vector2(0, jumpSpeed));
 			}
 		}
 
-
-		if (playerAnimator.GetCurrentAnimatorStateInfo (0).IsName ("Die")) 
+		if(playerRig.velocity.y > 0)
 		{
+			isFalling = true;
+			playerRig.velocity += Vector2.up * Physics2D.gravity.y * (fallingMultiplier - 1) * Time.deltaTime;
 		}
-
-
 	}
 
 	void OnCollisionEnter2D(Collision2D coll) {
+		jumpNumber = numberOfJumps;
 		isJumping = false;
+		isFalling = false;
 
 		if (coll.gameObject.tag == "Enemy") 
 		{
 			die ();
 		}
-
-		//if (coll.gameObject.tag == "Enemy")
-		//	coll.gameObject.SendMessage("ApplyDamage", 10);
-
 	}
 
-
+	void OnCollisionExit2D(Collision2D coll) {
+		if (!isJumping)
+			jumpNumber--;
+	}
+		
 	private void die()
 	{
 		playerAnimator.SetBool ("isDead", true);
 
 		//yield return new WaitForSeconds(playerAnimator.GetCurrentAnimatorStateInfo(0).length + playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime);
 
-		Destroy(this.gameObject);
+		//Destroy(this.gameObject);
 	}
 }
 
