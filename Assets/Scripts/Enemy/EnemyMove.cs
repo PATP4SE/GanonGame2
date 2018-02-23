@@ -9,10 +9,13 @@ public class EnemyMove : MonoBehaviour {
 	[SerializeField] private GameObject player;
 
 	private Rigidbody2D rigidBody;
+	private BoxCollider2D enemyCollider;
 
 	// Use this for initialization
 	void Start () {
 		rigidBody = GetComponent<Rigidbody2D> ();
+		enemyCollider = GetComponent<BoxCollider2D> ();
+		Physics2D.IgnoreCollision (player.GetComponent<BoxCollider2D>(), enemyCollider);
 	}
 	
 	// Update is called once per frame

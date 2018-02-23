@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
-	
+
 	//======================================================
-	//Serialized variables
+	// Public variables
+	//======================================================
+	public int direction {get; set;}
+
+
+	//======================================================
+	// Serialized variables
 	//======================================================
 	[SerializeField] private float speed;
 	[SerializeField] private float decelerationPercentage;
@@ -15,21 +21,22 @@ public class PlayerMove : MonoBehaviour {
 	[SerializeField] private int numberOfJumps;
 
 	//======================================================
-	//private physics-related variables
+	// Private physics-related variables
 	//======================================================
 	private Rigidbody2D playerRig;
 	private SpriteRenderer playerSprite;
 	private Animator playerAnimator;
+	private BoxCollider2D playerCollider;
 
 	//======================================================
-	//private variables
+	// Private variables
 	//======================================================
 	private int jumpNumber;
 	private bool isJumping = false;
 	private bool isFalling = false;
 
 	//======================================================
-	//Constants
+	// Constants
 	//======================================================
 	//private const int NUMBER_OF_JUMPS = numberOfJumps;
 
@@ -38,7 +45,7 @@ public class PlayerMove : MonoBehaviour {
 		playerRig = GetComponent<Rigidbody2D> ();
 		playerSprite = GetComponent<SpriteRenderer> ();
 		playerAnimator = GetComponent<Animator> ();
-		//playerCollider = GetComponent<BoxCollider2D> ();
+		playerCollider = GetComponent<BoxCollider2D> ();
 	}
 	
 	// Update is called once per frame
@@ -49,12 +56,14 @@ public class PlayerMove : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.D)) 
 		{
+			direction = 1;
 			playerSprite.flipX = false;
 			playerRig.AddForce (new Vector2 (speed, 0), ForceMode2D.Impulse);
 			playerAnimator.SetBool ("isWalking", true);
 		} 
 		else if (Input.GetKey (KeyCode.A)) 
 		{
+			direction = 0;
 			playerSprite.flipX = true;
 			playerRig.AddForce (new Vector2 (-speed, 0), ForceMode2D.Impulse);
 			playerAnimator.SetBool ("isWalking", true);
@@ -83,29 +92,33 @@ public class PlayerMove : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D coll) {
+	void OnCollisionEnter2D(Collision2D coll) 
+	{
 		jumpNumber = numberOfJumps;
 		isJumping = false;
 		isFalling = false;
-
 		if (coll.gameObject.tag == "Enemy") 
 		{
-			die ();
+			Physics2D.IgnoreCollision (playerCollider, coll.collider);
 		}
 	}
 
-	void OnCollisionExit2D(Collision2D coll) {
-		if (!isJumping)
+	void OnCollisionExit2D(Collision2D coll) 
+	{
+		if (!isJumping && !playerCollider.IsTouchingLayers())
 			jumpNumber--;
 	}
-		
-	private void die()
-	{
-		playerAnimator.SetBool ("isDead", true);
 
-		//yield return new WaitForSeconds(playerAnimator.GetCurrentAnimatorStateInfo(0).length + playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime);
-
-		//Destroy(this.gameObject);
-	}
+	//======================================================
+	// Private functions
+	//======================================================
+//	private void die()
+//	{
+//		playerAnimator.SetBool ("isDead", true);
+//
+//		//yield return new WaitForSeconds(playerAnimator.GetCurrentAnimatorStateInfo(0).length + playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+//
+//		//Destroy(this.gameObject);
+//	}
 }
 
