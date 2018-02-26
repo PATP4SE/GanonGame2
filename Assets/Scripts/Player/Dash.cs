@@ -9,6 +9,7 @@ public class Dash : MonoBehaviour {
 	//======================================================
 	[SerializeField] private float dashSpeed;
 	[SerializeField] private float cooldown;
+	[SerializeField] private float lagTimeBeforeDash;
 	//[SerializeField] private float decelerationPercentage;
 
 	//======================================================
@@ -26,6 +27,10 @@ public class Dash : MonoBehaviour {
 	private float nextTimeToDash;
 	private Vector2 dashingVelocity;
 	private bool capturedVelocity = false;
+	private bool dashPressed = false;
+
+	private float nextTimeToDashBeforeLag;
+
 
 	//======================================================
 	//Constants
@@ -46,6 +51,11 @@ public class Dash : MonoBehaviour {
 	{
 		if (Input.GetKeyDown (KeyCode.LeftShift) && Time.time >= nextTimeToDash) 
 		{
+			lagAndDash();
+		}
+
+		if(Time.time >= nextTimeToDashBeforeLag && dashPressed)
+		{
 			isDashing = true;
 			nextTimeToDash = Time.time + cooldown;
 			if(playerMove.direction == 1)
@@ -56,6 +66,7 @@ public class Dash : MonoBehaviour {
 			{
 				playerRig.AddForce (new Vector2 (-dashSpeed, 0), ForceMode2D.Impulse);
 			}
+			dashPressed = false;
 		}
 
 		if(isDashing)
@@ -72,6 +83,12 @@ public class Dash : MonoBehaviour {
 			Debug.Log (playerRig.velocity.x);
 		}
 
+	}
+
+	private void lagAndDash()
+	{
+		nextTimeToDashBeforeLag = Time.time + lagTimeBeforeDash;
+		dashPressed = true;
 	}
 
 //	void OnCollisionEnter2D(Collision2D coll) 
