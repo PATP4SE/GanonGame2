@@ -25,7 +25,6 @@ public class PlayerMove : MonoBehaviour {
 	//======================================================
 	private Rigidbody2D playerRig;
 	private SpriteRenderer playerSprite;
-	private Animator playerAnimator;
 	private BoxCollider2D playerCollider;
 
 	//======================================================
@@ -44,7 +43,6 @@ public class PlayerMove : MonoBehaviour {
 	void Start () {
 		playerRig = GetComponent<Rigidbody2D> ();
 		playerSprite = GetComponent<SpriteRenderer> ();
-	//	playerAnimator = GetComponent<Animator> ();
 		playerCollider = GetComponent<BoxCollider2D> ();
 	}
 	
@@ -54,25 +52,17 @@ public class PlayerMove : MonoBehaviour {
 		Utils.DecelerateX(ref playerRig, decelerationPercentage);
 		//manageMaxJumpHeight ();
 
-		//playerAnimator.
-
 		if (Input.GetKey (KeyCode.D)) 
 		{
 			direction = 1;
 			playerSprite.flipX = false;
 			playerRig.AddForce (new Vector2 (speed, 0), ForceMode2D.Impulse);
-			//playerAnimator.SetBool ("isWalking", true);
 		} 
 		else if (Input.GetKey (KeyCode.A)) 
 		{
 			direction = 0;
 			playerSprite.flipX = true;
 			playerRig.AddForce (new Vector2 (-speed, 0), ForceMode2D.Impulse);
-			//playerAnimator.SetBool ("isWalking", true);
-		} 
-		else 
-		{
-			//playerAnimator.SetBool ("isWalking", false);
 		}
 
 		if (Input.GetKeyDown (KeyCode.Space)) 
