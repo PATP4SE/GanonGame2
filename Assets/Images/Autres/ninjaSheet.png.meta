@@ -1,0 +1,3077 @@
+fileFormatVersion: 2
+guid: 66d868d4fe760404bb53e52415b487d2
+timeCreated: 1522944421
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ninjaSheet_0
+    21300002: ninjaSheet_1
+    21300004: ninjaSheet_2
+    21300006: ninjaSheet_3
+    21300008: ninjaSheet_4
+    21300010: ninjaSheet_5
+    21300012: ninjaSheet_6
+    21300014: ninjaSheet_7
+    21300016: ninjaSheet_8
+    21300018: ninjaSheet_9
+    21300020: ninjaSheet_10
+    21300022: ninjaSheet_11
+    21300024: ninjaSheet_12
+    21300026: ninjaSheet_13
+    21300028: ninjaSheet_14
+    21300030: ninjaSheet_15
+    21300032: ninjaSheet_16
+    21300034: ninjaSheet_17
+    21300036: ninjaSheet_18
+    21300038: ninjaSheet_19
+    21300040: ninjaSheet_20
+    21300042: ninjaSheet_21
+    21300044: ninjaSheet_22
+    21300046: ninjaSheet_23
+    21300048: ninjaSheet_24
+    21300050: ninjaSheet_25
+    21300052: ninjaSheet_26
+    21300054: ninjaSheet_27
+    21300056: ninjaSheet_28
+    21300058: ninjaSheet_29
+    21300060: ninjaSheet_30
+    21300062: ninjaSheet_31
+    21300064: ninjaSheet_32
+    21300066: ninjaSheet_33
+    21300068: ninjaSheet_34
+    21300070: ninjaSheet_35
+    21300072: ninjaSheet_36
+    21300074: ninjaSheet_37
+    21300076: ninjaSheet_38
+    21300078: ninjaSheet_39
+    21300080: ninjaSheet_40
+    21300082: ninjaSheet_41
+    21300084: ninjaSheet_42
+    21300086: ninjaSheet_43
+    21300088: ninjaSheet_44
+    21300090: ninjaSheet_45
+    21300092: ninjaSheet_46
+    21300094: ninjaSheet_47
+    21300096: ninjaSheet_48
+    21300098: ninjaSheet_49
+    21300100: ninjaSheet_50
+    21300102: ninjaSheet_51
+    21300104: ninjaSheet_52
+    21300106: ninjaSheet_53
+    21300108: ninjaSheet_54
+    21300110: ninjaSheet_55
+    21300112: ninjaSheet_56
+    21300114: ninjaSheet_57
+    21300116: ninjaSheet_58
+    21300118: ninjaSheet_59
+    21300120: ninjaSheet_60
+    21300122: ninjaSheet_61
+    21300124: ninjaSheet_62
+    21300126: ninjaSheet_63
+    21300128: ninjaSheet_64
+    21300130: ninjaSheet_65
+    21300132: ninjaSheet_66
+    21300134: ninjaSheet_67
+    21300136: ninjaSheet_68
+    21300138: ninjaSheet_69
+    21300140: ninjaSheet_70
+    21300142: ninjaSheet_71
+    21300144: ninjaSheet_72
+    21300146: ninjaSheet_73
+    21300148: ninjaSheet_74
+    21300150: ninjaSheet_75
+    21300152: ninjaSheet_76
+    21300154: ninjaSheet_77
+    21300156: ninjaSheet_78
+    21300158: ninjaSheet_79
+    21300160: ninjaSheet_80
+    21300162: ninjaSheet_81
+    21300164: ninjaSheet_82
+    21300166: ninjaSheet_83
+    21300168: ninjaSheet_84
+    21300170: ninjaSheet_85
+    21300172: ninjaSheet_86
+    21300174: ninjaSheet_87
+    21300176: ninjaSheet_88
+    21300178: ninjaSheet_89
+    21300180: ninjaSheet_90
+    21300182: ninjaSheet_91
+    21300184: ninjaSheet_92
+    21300186: ninjaSheet_93
+    21300188: ninjaSheet_94
+    21300190: ninjaSheet_95
+    21300192: ninjaSheet_96
+    21300194: ninjaSheet_97
+    21300196: ninjaSheet_98
+    21300198: ninjaSheet_99
+    21300200: ninjaSheet_100
+    21300202: ninjaSheet_101
+    21300204: ninjaSheet_102
+    21300206: ninjaSheet_103
+    21300208: ninjaSheet_104
+    21300210: ninjaSheet_105
+    21300212: ninjaSheet_106
+    21300214: ninjaSheet_107
+    21300216: ninjaSheet_108
+    21300218: ninjaSheet_109
+    21300220: ninjaSheet_110
+    21300222: ninjaSheet_111
+    21300224: ninjaSheet_112
+    21300226: ninjaSheet_113
+    21300228: ninjaSheet_114
+    21300230: ninjaSheet_115
+    21300232: ninjaSheet_116
+    21300234: ninjaSheet_117
+    21300236: ninjaSheet_118
+    21300238: ninjaSheet_119
+    21300240: ninjaSheet_120
+    21300242: ninjaSheet_121
+    21300244: ninjaSheet_122
+    21300246: ninjaSheet_123
+    21300248: ninjaSheet_124
+    21300250: ninjaSheet_125
+    21300252: ninjaSheet_126
+    21300254: ninjaSheet_127
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ninjaSheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 950
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 950
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 948
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 950
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 951
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 950
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_6
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 950
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 950
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_8
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 950
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 950
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 868
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 870
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 870
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 870
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 868
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_15
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 870
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 870
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_17
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 870
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 870
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_19
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 870
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_20
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 870
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_21
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 870
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 790
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_23
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 790
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 799
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 799
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 790
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 790
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_28
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 791
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_29
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 788
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_30
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 788
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_31
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 787
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_32
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 791
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 708
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_34
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 708
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 708
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_36
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 710
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_37
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 710
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_38
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 710
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_39
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 710
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_40
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 710
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_41
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 702
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_42
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 704
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_43
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 704
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_44
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 711
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 628
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_46
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 629
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_47
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 628
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_48
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 628
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_49
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 628
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_50
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 629
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_51
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 628
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_52
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 628
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_53
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 630
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_54
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 630
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_55
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 628
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 550
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 550
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_58
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 550
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_59
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 550
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_60
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 550
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 550
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_62
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 548
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_63
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 548
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_64
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 548
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_65
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 548
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_66
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 548
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 548
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_68
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 470
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_69
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 470
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_70
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 470
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_71
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 470
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_72
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 470
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_73
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 470
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_74
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 467
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_75
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 468
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_76
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 468
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_77
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 468
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_78
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 468
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_79
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 468
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_80
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 395
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 392
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_82
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 390
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 388
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_84
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 395
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_85
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 395
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_86
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 392
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_87
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 390
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_88
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 388
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_89
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 395
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_90
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 310
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_91
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 310
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_92
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 310
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_93
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 310
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_94
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 310
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_95
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 310
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_96
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 310
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_97
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 307
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_98
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 228
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_99
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 224
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_100
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 227
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_101
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 227
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_102
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 227
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_103
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 227
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_104
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 224
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_105
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 224
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_106
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 227
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_107
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 227
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_108
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 224
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_109
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 224
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_110
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 147
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_111
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 146
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_112
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 144
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_113
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 146
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_114
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 146
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_115
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 146
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_116
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 144
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_117
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 143
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_118
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 145
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_119
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 144
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_120
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 87
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_121
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 77
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_122
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_123
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 72
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_124
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 71
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_125
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 70
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_126
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 78
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninjaSheet_127
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 65
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: 20, y: -382}
+      - {x: -14, y: -382}
+      - {x: -18, y: -396}
+      - {x: -18, y: -422}
+      - {x: -11, y: -448}
+      - {x: -5, y: -449}
+      - {x: 26, y: -449}
+      - {x: 34, y: -441}
+      - {x: 34, y: -410}
+      - {x: 32, y: -395}
+    - - {x: -180, y: -444}
+      - {x: -122, y: -444}
+      - {x: -122, y: -406}
+      - {x: -127, y: -377}
+      - {x: -175, y: -377}
+      - {x: -180, y: -398}
+    - - {x: -219, y: -378}
+      - {x: -250, y: -378}
+      - {x: -261, y: -403}
+      - {x: -261, y: -442}
+      - {x: -259, y: -443}
+      - {x: -209, y: -443}
+      - {x: -204, y: -434}
+      - {x: -204, y: -401}
+      - {x: -207, y: -383}
+    - - {x: -323, y: -374}
+      - {x: -336, y: -379}
+      - {x: -336, y: -412}
+      - {x: -328, y: -428}
+      - {x: -319, y: -442}
+      - {x: -298, y: -442}
+      - {x: -287, y: -416}
+      - {x: -287, y: -377}
+      - {x: -291, y: -374}
+    - - {x: -498, y: -381}
+      - {x: -507, y: -399}
+      - {x: -507, y: -437}
+      - {x: -444, y: -437}
+      - {x: -444, y: -381}
+    - - {x: -99, y: -382}
+      - {x: -103, y: -401}
+      - {x: -103, y: -436}
+      - {x: -50, y: -436}
+      - {x: -47, y: -433}
+      - {x: -47, y: -387}
+      - {x: -57, y: -382}
+    - - {x: -419, y: -381}
+      - {x: -419, y: -432}
+      - {x: -406, y: -435}
+      - {x: -372, y: -435}
+      - {x: -365, y: -424}
+      - {x: -365, y: -383}
+      - {x: -369, y: -381}
+    - - {x: 318, y: -309}
+      - {x: 305, y: -316}
+      - {x: 305, y: -361}
+      - {x: 342, y: -427}
+      - {x: 380, y: -427}
+      - {x: 431, y: -360}
+      - {x: 431, y: -325}
+      - {x: 418, y: -309}
+    - - {x: 79, y: -298}
+      - {x: 68, y: -301}
+      - {x: 50, y: -332}
+      - {x: 50, y: -358}
+      - {x: 59, y: -371}
+      - {x: 119, y: -371}
+      - {x: 120, y: -364}
+      - {x: 120, y: -298}
+    - - {x: -327, y: -293}
+      - {x: -344, y: -300}
+      - {x: -344, y: -347}
+      - {x: -336, y: -370}
+      - {x: -288, y: -370}
+      - {x: -288, y: -296}
+      - {x: -292, y: -293}
+    - - {x: -5, y: -296}
+      - {x: -22, y: -317}
+      - {x: -22, y: -355}
+      - {x: -20, y: -361}
+      - {x: -11, y: -370}
+      - {x: 25, y: -370}
+      - {x: 38, y: -348}
+      - {x: 38, y: -316}
+      - {x: 31, y: -296}
+    - - {x: 236, y: -296}
+      - {x: 226, y: -305}
+      - {x: 218, y: -315}
+      - {x: 218, y: -370}
+      - {x: 272, y: -370}
+      - {x: 278, y: -352}
+      - {x: 278, y: -299}
+      - {x: 266, y: -296}
+    - - {x: 197, y: -298}
+      - {x: 151, y: -298}
+      - {x: 129, y: -337}
+      - {x: 129, y: -357}
+      - {x: 130, y: -362}
+      - {x: 152, y: -369}
+      - {x: 185, y: -369}
+      - {x: 204, y: -357}
+      - {x: 204, y: -318}
+    - - {x: -374, y: -294}
+      - {x: -406, y: -294}
+      - {x: -418, y: -296}
+      - {x: -423, y: -311}
+      - {x: -423, y: -367}
+      - {x: -417, y: -368}
+      - {x: -371, y: -368}
+      - {x: -369, y: -361}
+      - {x: -366, y: -323}
+      - {x: -366, y: -305}
+    - - {x: -257, y: -294}
+      - {x: -264, y: -300}
+      - {x: -264, y: -355}
+      - {x: -254, y: -368}
+      - {x: -208, y: -368}
+      - {x: -208, y: -295}
+      - {x: -209, y: -294}
+    - - {x: -169, y: -296}
+      - {x: -184, y: -312}
+      - {x: -184, y: -364}
+      - {x: -173, y: -368}
+      - {x: -129, y: -368}
+      - {x: -128, y: -365}
+      - {x: -128, y: -297}
+      - {x: -132, y: -296}
+    - - {x: -86, y: -296}
+      - {x: -105, y: -302}
+      - {x: -106, y: -307}
+      - {x: -106, y: -342}
+      - {x: -95, y: -368}
+      - {x: -55, y: -368}
+      - {x: -49, y: -362}
+      - {x: -49, y: -305}
+      - {x: -57, y: -296}
+    - - {x: -450, y: -294}
+      - {x: -486, y: -294}
+      - {x: -502, y: -299}
+      - {x: -502, y: -366}
+      - {x: -498, y: -367}
+      - {x: -449, y: -367}
+      - {x: -446, y: -363}
+      - {x: -446, y: -303}
+    - - {x: -412, y: -214}
+      - {x: -426, y: -232}
+      - {x: -426, y: -263}
+      - {x: -406, y: -290}
+      - {x: -369, y: -290}
+      - {x: -369, y: -216}
+      - {x: -374, y: -214}
+    - - {x: -3, y: -212}
+      - {x: -23, y: -220}
+      - {x: -23, y: -263}
+      - {x: 6, y: -290}
+      - {x: 35, y: -290}
+      - {x: 36, y: -289}
+      - {x: 36, y: -219}
+      - {x: 27, y: -212}
+    - - {x: 103, y: -210}
+      - {x: 71, y: -210}
+      - {x: 57, y: -230}
+      - {x: 57, y: -270}
+      - {x: 90, y: -290}
+      - {x: 108, y: -290}
+      - {x: 113, y: -281}
+      - {x: 114, y: -274}
+      - {x: 114, y: -218}
+    - - {x: 321, y: -210}
+      - {x: 307, y: -211}
+      - {x: 296, y: -231}
+      - {x: 296, y: -269}
+      - {x: 315, y: -290}
+      - {x: 346, y: -290}
+      - {x: 355, y: -287}
+      - {x: 356, y: -283}
+      - {x: 356, y: -233}
+      - {x: 345, y: -210}
+    - - {x: 384, y: -210}
+      - {x: 377, y: -227}
+      - {x: 377, y: -268}
+      - {x: 405, y: -290}
+      - {x: 434, y: -290}
+      - {x: 434, y: -218}
+      - {x: 421, y: -210}
+    - - {x: -316, y: -214}
+      - {x: -336, y: -218}
+      - {x: -343, y: -242}
+      - {x: -343, y: -259}
+      - {x: -340, y: -262}
+      - {x: -332, y: -262}
+      - {x: -330, y: -261}
+      - {x: -332, y: -263}
+      - {x: -333, y: -265}
+      - {x: -336, y: -273}
+      - {x: -325, y: -287}
+      - {x: -301, y: -287}
+      - {x: -290, y: -285}
+      - {x: -286, y: -276}
+      - {x: -286, y: -224}
+      - {x: -300, y: -214}
+    - - {x: -248, y: -214}
+      - {x: -258, y: -217}
+      - {x: -263, y: -229}
+      - {x: -263, y: -275}
+      - {x: -248, y: -287}
+      - {x: -211, y: -287}
+      - {x: -206, y: -283}
+      - {x: -206, y: -218}
+      - {x: -223, y: -214}
+    - - {x: -128, y: -218}
+      - {x: -142, y: -212}
+      - {x: -184, y: -212}
+      - {x: -184, y: -277}
+      - {x: -166, y: -287}
+      - {x: -147, y: -287}
+      - {x: -128, y: -282}
+      - {x: -124, y: -278}
+      - {x: -124, y: -243}
+    - - {x: -92, y: -210}
+      - {x: -102, y: -222}
+      - {x: -104, y: -244}
+      - {x: -104, y: -265}
+      - {x: -78, y: -287}
+      - {x: -50, y: -287}
+      - {x: -43, y: -277}
+      - {x: -43, y: -244}
+      - {x: -55, y: -210}
+    - - {x: 151, y: -210}
+      - {x: 134, y: -218}
+      - {x: 134, y: -265}
+      - {x: 154, y: -287}
+      - {x: 179, y: -287}
+      - {x: 192, y: -282}
+      - {x: 196, y: -277}
+      - {x: 196, y: -232}
+      - {x: 187, y: -210}
+    - - {x: 225, y: -210}
+      - {x: 216, y: -228}
+      - {x: 216, y: -268}
+      - {x: 233, y: -287}
+      - {x: 272, y: -287}
+      - {x: 277, y: -284}
+      - {x: 277, y: -218}
+      - {x: 263, y: -210}
+    - - {x: -503, y: -214}
+      - {x: -504, y: -219}
+      - {x: -504, y: -281}
+      - {x: -492, y: -286}
+      - {x: -452, y: -286}
+      - {x: -448, y: -278}
+      - {x: -448, y: -226}
+      - {x: -451, y: -214}
+    - - {x: 53, y: -152}
+      - {x: 53, y: -201}
+      - {x: 55, y: -207}
+      - {x: 117, y: -207}
+      - {x: 122, y: -194}
+      - {x: 122, y: -156}
+      - {x: 120, y: -152}
+    - - {x: -475, y: -134}
+      - {x: -482, y: -135}
+      - {x: -503, y: -136}
+      - {x: -503, y: -204}
+      - {x: -450, y: -204}
+      - {x: -448, y: -187}
+      - {x: -448, y: -141}
+      - {x: -465, y: -134}
+    - - {x: -405, y: -134}
+      - {x: -414, y: -136}
+      - {x: -422, y: -159}
+      - {x: -422, y: -185}
+      - {x: -405, y: -204}
+      - {x: -373, y: -204}
+      - {x: -368, y: -187}
+      - {x: -368, y: -142}
+      - {x: -376, y: -134}
+    - - {x: -342, y: -133}
+      - {x: -343, y: -136}
+      - {x: -343, y: -193}
+      - {x: -321, y: -204}
+      - {x: -294, y: -204}
+      - {x: -289, y: -186}
+      - {x: -289, y: -144}
+      - {x: -307, y: -133}
+    - - {x: -248, y: -136}
+      - {x: -262, y: -145}
+      - {x: -262, y: -183}
+      - {x: -244, y: -204}
+      - {x: -216, y: -204}
+      - {x: -212, y: -194}
+      - {x: -212, y: -148}
+      - {x: -226, y: -136}
+    - - {x: -168, y: -133}
+      - {x: -183, y: -141}
+      - {x: -183, y: -187}
+      - {x: -164, y: -204}
+      - {x: -131, y: -204}
+      - {x: -128, y: -188}
+      - {x: -128, y: -139}
+      - {x: -141, y: -133}
+    - - {x: -86, y: -134}
+      - {x: -90, y: -136}
+      - {x: -100, y: -144}
+      - {x: -100, y: -185}
+      - {x: -96, y: -204}
+      - {x: -52, y: -204}
+      - {x: -46, y: -193}
+      - {x: -46, y: -151}
+      - {x: -54, y: -134}
+    - - {x: -5, y: -134}
+      - {x: -10, y: -136}
+      - {x: -23, y: -146}
+      - {x: -23, y: -190}
+      - {x: -22, y: -200}
+      - {x: -6, y: -204}
+      - {x: 27, y: -204}
+      - {x: 34, y: -191}
+      - {x: 34, y: -153}
+      - {x: 24, y: -134}
+    - - {x: -258, y: -52}
+      - {x: -258, y: -100}
+      - {x: -244, y: -126}
+      - {x: -222, y: -126}
+      - {x: -201, y: -103}
+      - {x: -201, y: -52}
+    - - {x: 146, y: -52}
+      - {x: 139, y: -61}
+      - {x: 137, y: -71}
+      - {x: 137, y: -101}
+      - {x: 157, y: -126}
+      - {x: 178, y: -126}
+      - {x: 194, y: -100}
+      - {x: 194, y: -53}
+      - {x: 187, y: -52}
+    - - {x: -327, y: -53}
+      - {x: -336, y: -66}
+      - {x: -336, y: -119}
+      - {x: -325, y: -124}
+      - {x: -285, y: -124}
+      - {x: -276, y: -114}
+      - {x: -276, y: -69}
+      - {x: -291, y: -53}
+    - - {x: 52, y: -100}
+      - {x: 67, y: -124}
+      - {x: 106, y: -124}
+      - {x: 114, y: -123}
+      - {x: 114, y: -53}
+      - {x: 66, y: -53}
+      - {x: 52, y: -61}
+    - - {x: -410, y: -54}
+      - {x: -418, y: -63}
+      - {x: -418, y: -117}
+      - {x: -416, y: -122}
+      - {x: -365, y: -122}
+      - {x: -358, y: -115}
+      - {x: -358, y: -75}
+      - {x: -373, y: -54}
+    - - {x: -10, y: -51}
+      - {x: -26, y: -78}
+      - {x: -26, y: -112}
+      - {x: -21, y: -122}
+      - {x: 34, y: -122}
+      - {x: 34, y: -68}
+      - {x: 27, y: -51}
+    - - {x: -486, y: -53}
+      - {x: -496, y: -67}
+      - {x: -496, y: -113}
+      - {x: -491, y: -119}
+      - {x: -455, y: -119}
+      - {x: -446, y: -115}
+      - {x: -446, y: -67}
+      - {x: -451, y: -53}
+    - - {x: -138, y: -53}
+      - {x: -172, y: -53}
+      - {x: -176, y: -56}
+      - {x: -176, y: -119}
+      - {x: -126, y: -119}
+      - {x: -126, y: -65}
+      - {x: -133, y: -54}
+    - - {x: -98, y: -53}
+      - {x: -98, y: -119}
+      - {x: -53, y: -119}
+      - {x: -46, y: -117}
+      - {x: -46, y: -67}
+      - {x: -47, y: -62}
+      - {x: -54, y: -53}
+    - - {x: 234, y: -53}
+      - {x: 222, y: -65}
+      - {x: 222, y: -119}
+      - {x: 271, y: -119}
+      - {x: 274, y: -115}
+      - {x: 274, y: -59}
+      - {x: 269, y: -53}
+    - - {x: -24, y: -35}
+      - {x: -17, y: -43}
+      - {x: -12, y: -47}
+      - {x: 24, y: -47}
+      - {x: 39, y: -32}
+      - {x: 39, y: 21}
+      - {x: 37, y: 26}
+      - {x: -7, y: 26}
+      - {x: -24, y: 1}
+    - - {x: 109, y: 26}
+      - {x: 66, y: 26}
+      - {x: 56, y: -4}
+      - {x: 56, y: -36}
+      - {x: 69, y: -46}
+      - {x: 100, y: -46}
+      - {x: 115, y: -28}
+      - {x: 120, y: -11}
+      - {x: 120, y: 13}
+    - - {x: 153, y: 27}
+      - {x: 140, y: 24}
+      - {x: 134, y: 1}
+      - {x: 134, y: -31}
+      - {x: 145, y: -46}
+      - {x: 184, y: -46}
+      - {x: 199, y: -42}
+      - {x: 200, y: -24}
+      - {x: 200, y: 21}
+      - {x: 197, y: 27}
+    - - {x: 229, y: 26}
+      - {x: 214, y: -2}
+      - {x: 214, y: -39}
+      - {x: 221, y: -46}
+      - {x: 264, y: -46}
+      - {x: 279, y: -24}
+      - {x: 279, y: 13}
+      - {x: 275, y: 26}
+    - - {x: 317, y: 27}
+      - {x: 296, y: -3}
+      - {x: 296, y: -34}
+      - {x: 301, y: -45}
+      - {x: 303, y: -46}
+      - {x: 343, y: -46}
+      - {x: 360, y: -16}
+      - {x: 360, y: 19}
+      - {x: 350, y: 27}
+    - - {x: 374, y: -40}
+      - {x: 379, y: -46}
+      - {x: 419, y: -46}
+      - {x: 440, y: -39}
+      - {x: 440, y: 27}
+      - {x: 392, y: 27}
+      - {x: 374, y: -3}
+    - - {x: -495, y: 23}
+      - {x: -500, y: 4}
+      - {x: -500, y: -33}
+      - {x: -487, y: -44}
+      - {x: -445, y: -44}
+      - {x: -442, y: -34}
+      - {x: -442, y: 20}
+      - {x: -452, y: 23}
+    - - {x: -413, y: 23}
+      - {x: -420, y: 4}
+      - {x: -420, y: -31}
+      - {x: -407, y: -44}
+      - {x: -389, y: -44}
+      - {x: -383, y: -43}
+      - {x: -364, y: -30}
+      - {x: -364, y: 9}
+      - {x: -377, y: 23}
+    - - {x: -335, y: 23}
+      - {x: -342, y: 0}
+      - {x: -342, y: -26}
+      - {x: -328, y: -44}
+      - {x: -302, y: -44}
+      - {x: -286, y: -41}
+      - {x: -285, y: -35}
+      - {x: -285, y: 11}
+      - {x: -297, y: 23}
+    - - {x: -248, y: 23}
+      - {x: -254, y: 14}
+      - {x: -260, y: -9}
+      - {x: -260, y: -28}
+      - {x: -247, y: -44}
+      - {x: -205, y: -44}
+      - {x: -202, y: -34}
+      - {x: -202, y: 18}
+      - {x: -212, y: 23}
+    - - {x: -126, y: 19}
+      - {x: -143, y: 23}
+      - {x: -167, y: 23}
+      - {x: -179, y: 18}
+      - {x: -180, y: 8}
+      - {x: -180, y: -38}
+      - {x: -161, y: -44}
+      - {x: -134, y: -44}
+      - {x: -125, y: -26}
+      - {x: -124, y: -20}
+      - {x: -124, y: -5}
+    - - {x: -99, y: -1}
+      - {x: -99, y: -35}
+      - {x: -89, y: -44}
+      - {x: -59, y: -44}
+      - {x: -42, y: -29}
+      - {x: -42, y: 13}
+      - {x: -45, y: 22}
+      - {x: -54, y: 23}
+      - {x: -90, y: 23}
+      - {x: -97, y: 12}
+    - - {x: -18, y: 107}
+      - {x: -19, y: 102}
+      - {x: -19, y: 39}
+      - {x: -16, y: 36}
+      - {x: -8, y: 34}
+      - {x: 27, y: 34}
+      - {x: 34, y: 41}
+      - {x: 34, y: 98}
+      - {x: 22, y: 107}
+    - - {x: 65, y: 106}
+      - {x: 61, y: 79}
+      - {x: 61, y: 42}
+      - {x: 71, y: 34}
+      - {x: 102, y: 34}
+      - {x: 114, y: 39}
+      - {x: 114, y: 94}
+      - {x: 104, y: 106}
+    - - {x: 146, y: 107}
+      - {x: 142, y: 104}
+      - {x: 142, y: 39}
+      - {x: 157, y: 34}
+      - {x: 187, y: 34}
+      - {x: 194, y: 54}
+      - {x: 194, y: 103}
+      - {x: 184, y: 107}
+    - - {x: 263, y: 107}
+      - {x: 224, y: 107}
+      - {x: 222, y: 100}
+      - {x: 222, y: 36}
+      - {x: 230, y: 34}
+      - {x: 270, y: 34}
+      - {x: 276, y: 44}
+      - {x: 276, y: 77}
+      - {x: 274, y: 96}
+    - - {x: 303, y: 107}
+      - {x: 302, y: 97}
+      - {x: 302, y: 46}
+      - {x: 313, y: 34}
+      - {x: 339, y: 34}
+      - {x: 356, y: 40}
+      - {x: 356, y: 93}
+      - {x: 352, y: 107}
+    - - {x: 419, y: 107}
+      - {x: 390, y: 107}
+      - {x: 382, y: 101}
+      - {x: 382, y: 44}
+      - {x: 395, y: 34}
+      - {x: 423, y: 34}
+      - {x: 434, y: 45}
+      - {x: 435, y: 48}
+      - {x: 435, y: 101}
+    - - {x: -495, y: 106}
+      - {x: -496, y: 101}
+      - {x: -496, y: 41}
+      - {x: -483, y: 36}
+      - {x: -452, y: 36}
+      - {x: -446, y: 47}
+      - {x: -446, y: 102}
+      - {x: -454, y: 106}
+    - - {x: -404, y: 106}
+      - {x: -418, y: 98}
+      - {x: -418, y: 45}
+      - {x: -409, y: 36}
+      - {x: -380, y: 36}
+      - {x: -372, y: 38}
+      - {x: -366, y: 58}
+      - {x: -366, y: 94}
+      - {x: -375, y: 106}
+    - - {x: -295, y: 105}
+      - {x: -305, y: 106}
+      - {x: -327, y: 106}
+      - {x: -336, y: 98}
+      - {x: -336, y: 45}
+      - {x: -331, y: 36}
+      - {x: -302, y: 36}
+      - {x: -286, y: 43}
+      - {x: -286, y: 92}
+      - {x: -287, y: 95}
+    - - {x: -248, y: 106}
+      - {x: -257, y: 98}
+      - {x: -257, y: 36}
+      - {x: -214, y: 36}
+      - {x: -208, y: 41}
+      - {x: -208, y: 106}
+    - - {x: -178, y: 106}
+      - {x: -178, y: 54}
+      - {x: -176, y: 36}
+      - {x: -135, y: 36}
+      - {x: -126, y: 46}
+      - {x: -126, y: 100}
+      - {x: -138, y: 106}
+    - - {x: -90, y: 106}
+      - {x: -98, y: 100}
+      - {x: -98, y: 45}
+      - {x: -93, y: 36}
+      - {x: -46, y: 36}
+      - {x: -46, y: 106}
+    - - {x: -458, y: 186}
+      - {x: -503, y: 186}
+      - {x: -504, y: 181}
+      - {x: -504, y: 133}
+      - {x: -479, y: 114}
+      - {x: -453, y: 114}
+      - {x: -446, y: 127}
+      - {x: -446, y: 170}
+      - {x: -449, y: 184}
+    - - {x: -344, y: 186}
+      - {x: -347, y: 172}
+      - {x: -347, y: 126}
+      - {x: -331, y: 114}
+      - {x: -302, y: 114}
+      - {x: -288, y: 121}
+      - {x: -288, y: 157}
+      - {x: -290, y: 163}
+      - {x: -309, y: 186}
+    - - {x: -215, y: 183}
+      - {x: -253, y: 183}
+      - {x: -263, y: 172}
+      - {x: -263, y: 136}
+      - {x: -246, y: 114}
+      - {x: -208, y: 114}
+      - {x: -206, y: 136}
+      - {x: -206, y: 174}
+      - {x: -211, y: 182}
+    - - {x: -181, y: 184}
+      - {x: -184, y: 179}
+      - {x: -184, y: 133}
+      - {x: -171, y: 114}
+      - {x: -132, y: 114}
+      - {x: -130, y: 115}
+      - {x: -129, y: 124}
+      - {x: -129, y: 182}
+      - {x: -137, y: 184}
+    - - {x: -19, y: 186}
+      - {x: -26, y: 161}
+      - {x: -26, y: 130}
+      - {x: -7, y: 114}
+      - {x: 23, y: 114}
+      - {x: 30, y: 127}
+      - {x: 30, y: 175}
+      - {x: 23, y: 186}
+    - - {x: 99, y: 187}
+      - {x: 56, y: 187}
+      - {x: 56, y: 117}
+      - {x: 77, y: 114}
+      - {x: 100, y: 114}
+      - {x: 116, y: 135}
+      - {x: 116, y: 147}
+      - {x: 108, y: 182}
+    - - {x: 301, y: 186}
+      - {x: 294, y: 162}
+      - {x: 294, y: 136}
+      - {x: 314, y: 114}
+      - {x: 342, y: 114}
+      - {x: 351, y: 129}
+      - {x: 351, y: 168}
+      - {x: 342, y: 186}
+    - - {x: -380, y: 186}
+      - {x: -406, y: 186}
+      - {x: -417, y: 179}
+      - {x: -422, y: 168}
+      - {x: -423, y: 157}
+      - {x: -423, y: 138}
+      - {x: -421, y: 133}
+      - {x: -397, y: 115}
+      - {x: -375, y: 115}
+      - {x: -364, y: 121}
+      - {x: -364, y: 154}
+      - {x: -367, y: 181}
+    - - {x: -62, y: 184}
+      - {x: -92, y: 184}
+      - {x: -104, y: 166}
+      - {x: -104, y: 122}
+      - {x: -83, y: 115}
+      - {x: -47, y: 115}
+      - {x: -41, y: 123}
+      - {x: -41, y: 143}
+      - {x: -50, y: 176}
+    - - {x: 156, y: 186}
+      - {x: 140, y: 178}
+      - {x: 140, y: 116}
+      - {x: 195, y: 116}
+      - {x: 198, y: 124}
+      - {x: 198, y: 186}
+    - - {x: 280, y: 186}
+      - {x: 239, y: 186}
+      - {x: 222, y: 171}
+      - {x: 222, y: 118}
+      - {x: 227, y: 116}
+      - {x: 277, y: 116}
+      - {x: 284, y: 123}
+      - {x: 286, y: 144}
+      - {x: 286, y: 175}
+    - - {x: 159, y: 263}
+      - {x: 137, y: 256}
+      - {x: 137, y: 210}
+      - {x: 155, y: 190}
+      - {x: 162, y: 188}
+      - {x: 196, y: 188}
+      - {x: 202, y: 222}
+      - {x: 202, y: 254}
+      - {x: 192, y: 263}
+    - - {x: 226, y: 266}
+      - {x: 217, y: 246}
+      - {x: 217, y: 211}
+      - {x: 240, y: 190}
+      - {x: 263, y: 190}
+      - {x: 276, y: 194}
+      - {x: 281, y: 201}
+      - {x: 281, y: 260}
+      - {x: 263, y: 266}
+    - - {x: 297, y: 266}
+      - {x: 297, y: 192}
+      - {x: 305, y: 190}
+      - {x: 344, y: 190}
+      - {x: 362, y: 196}
+      - {x: 362, y: 252}
+      - {x: 348, y: 266}
+    - - {x: -493, y: 266}
+      - {x: -501, y: 263}
+      - {x: -510, y: 245}
+      - {x: -510, y: 212}
+      - {x: -503, y: 194}
+      - {x: -462, y: 194}
+      - {x: -452, y: 202}
+      - {x: -452, y: 245}
+      - {x: -464, y: 266}
+    - - {x: -419, y: 266}
+      - {x: -431, y: 258}
+      - {x: -431, y: 206}
+      - {x: -420, y: 194}
+      - {x: -380, y: 194}
+      - {x: -370, y: 199}
+      - {x: -370, y: 237}
+      - {x: -381, y: 266}
+    - - {x: -346, y: 266}
+      - {x: -346, y: 194}
+      - {x: -294, y: 194}
+      - {x: -290, y: 199}
+      - {x: -290, y: 260}
+      - {x: -299, y: 266}
+    - - {x: -250, y: 266}
+      - {x: -267, y: 255}
+      - {x: -267, y: 205}
+      - {x: -262, y: 196}
+      - {x: -223, y: 196}
+      - {x: -204, y: 210}
+      - {x: -204, y: 245}
+      - {x: -213, y: 266}
+    - - {x: -122, y: 264}
+      - {x: -170, y: 264}
+      - {x: -176, y: 253}
+      - {x: -176, y: 219}
+      - {x: -170, y: 196}
+      - {x: -143, y: 196}
+      - {x: -123, y: 203}
+      - {x: -116, y: 225}
+      - {x: -116, y: 262}
+    - - {x: -69, y: 262}
+      - {x: -95, y: 253}
+      - {x: -95, y: 207}
+      - {x: -91, y: 196}
+      - {x: -56, y: 196}
+      - {x: -32, y: 224}
+      - {x: -32, y: 249}
+      - {x: -44, y: 262}
+    - - {x: 30, y: 266}
+      - {x: 6, y: 266}
+      - {x: -9, y: 263}
+      - {x: -16, y: 251}
+      - {x: -16, y: 205}
+      - {x: -11, y: 196}
+      - {x: 25, y: 196}
+      - {x: 44, y: 223}
+      - {x: 44, y: 254}
+    - - {x: 71, y: 266}
+      - {x: 54, y: 241}
+      - {x: 54, y: 224}
+      - {x: 59, y: 217}
+      - {x: 64, y: 218}
+      - {x: 66, y: 220}
+      - {x: 64, y: 217}
+      - {x: 64, y: 208}
+      - {x: 74, y: 196}
+      - {x: 98, y: 196}
+      - {x: 104, y: 197}
+      - {x: 111, y: 218}
+      - {x: 111, y: 258}
+      - {x: 101, y: 266}
+    - - {x: 400, y: 267}
+      - {x: 380, y: 258}
+      - {x: 377, y: 253}
+      - {x: 377, y: 220}
+      - {x: 384, y: 197}
+      - {x: 434, y: 197}
+      - {x: 442, y: 221}
+      - {x: 442, y: 251}
+      - {x: 425, y: 267}
+    - - {x: 219, y: 343}
+      - {x: 216, y: 326}
+      - {x: 216, y: 283}
+      - {x: 236, y: 273}
+      - {x: 259, y: 273}
+      - {x: 275, y: 289}
+      - {x: 275, y: 327}
+      - {x: 269, y: 343}
+    - - {x: 67, y: 342}
+      - {x: 54, y: 311}
+      - {x: 54, y: 283}
+      - {x: 76, y: 274}
+      - {x: 111, y: 274}
+      - {x: 117, y: 278}
+      - {x: 117, y: 330}
+      - {x: 114, y: 342}
+    - - {x: 144, y: 340}
+      - {x: 138, y: 318}
+      - {x: 138, y: 274}
+      - {x: 198, y: 274}
+      - {x: 198, y: 318}
+      - {x: 184, y: 340}
+    - - {x: -454, y: 346}
+      - {x: -494, y: 346}
+      - {x: -502, y: 326}
+      - {x: -503, y: 321}
+      - {x: -503, y: 294}
+      - {x: -487, y: 276}
+      - {x: -464, y: 276}
+      - {x: -453, y: 282}
+      - {x: -446, y: 303}
+      - {x: -446, y: 316}
+    - - {x: -407, y: 346}
+      - {x: -426, y: 323}
+      - {x: -426, y: 292}
+      - {x: -400, y: 276}
+      - {x: -373, y: 276}
+      - {x: -368, y: 281}
+      - {x: -368, y: 346}
+    - - {x: -169, y: 342}
+      - {x: -182, y: 324}
+      - {x: -182, y: 280}
+      - {x: -178, y: 276}
+      - {x: -147, y: 276}
+      - {x: -118, y: 298}
+      - {x: -118, y: 329}
+      - {x: -123, y: 342}
+    - - {x: -57, y: 343}
+      - {x: -86, y: 343}
+      - {x: -108, y: 322}
+      - {x: -108, y: 294}
+      - {x: -95, y: 276}
+      - {x: -61, y: 276}
+      - {x: -45, y: 297}
+      - {x: -44, y: 303}
+      - {x: -44, y: 337}
+    - - {x: -22, y: 342}
+      - {x: -22, y: 277}
+      - {x: 16, y: 277}
+      - {x: 38, y: 284}
+      - {x: 38, y: 312}
+      - {x: 26, y: 342}
+    - - {x: 306, y: 350}
+      - {x: 297, y: 347}
+      - {x: 296, y: 338}
+      - {x: 296, y: 281}
+      - {x: 306, y: 277}
+      - {x: 345, y: 277}
+      - {x: 358, y: 295}
+      - {x: 358, y: 336}
+      - {x: 347, y: 350}
+    - - {x: -326, y: 343}
+      - {x: -346, y: 333}
+      - {x: -346, y: 291}
+      - {x: -336, y: 285}
+      - {x: -289, y: 285}
+      - {x: -281, y: 308}
+      - {x: -281, y: 341}
+      - {x: -283, y: 343}
+    - - {x: -249, y: 342}
+      - {x: -252, y: 341}
+      - {x: -269, y: 314}
+      - {x: -269, y: 295}
+      - {x: -265, y: 285}
+      - {x: -210, y: 285}
+      - {x: -197, y: 291}
+      - {x: -197, y: 333}
+      - {x: -217, y: 342}
+    - - {x: -479, y: 422}
+      - {x: -495, y: 412}
+      - {x: -495, y: 381}
+      - {x: -492, y: 380}
+      - {x: -487, y: 380}
+      - {x: -489, y: 380}
+      - {x: -494, y: 378}
+      - {x: -495, y: 374}
+      - {x: -495, y: 358}
+      - {x: -492, y: 354}
+      - {x: -457, y: 354}
+      - {x: -436, y: 364}
+      - {x: -436, y: 410}
+      - {x: -447, y: 422}
+    - - {x: -131, y: 422}
+      - {x: -167, y: 422}
+      - {x: -182, y: 407}
+      - {x: -182, y: 359}
+      - {x: -180, y: 354}
+      - {x: -144, y: 354}
+      - {x: -129, y: 355}
+      - {x: -122, y: 374}
+      - {x: -122, y: 419}
+    - - {x: -411, y: 404}
+      - {x: -413, y: 403}
+      - {x: -426, y: 370}
+      - {x: -426, y: 356}
+      - {x: -370, y: 356}
+      - {x: -364, y: 357}
+      - {x: -364, y: 399}
+      - {x: -373, y: 404}
+    - - {x: -325, y: 402}
+      - {x: -334, y: 391}
+      - {x: -343, y: 365}
+      - {x: -343, y: 358}
+      - {x: -339, y: 356}
+      - {x: -284, y: 356}
+      - {x: -282, y: 360}
+      - {x: -282, y: 399}
+      - {x: -291, y: 402}
+    - - {x: -250, y: 404}
+      - {x: -263, y: 388}
+      - {x: -263, y: 356}
+      - {x: -204, y: 356}
+      - {x: -204, y: 398}
+      - {x: -214, y: 404}
+    - - {x: -102, y: 358}
+      - {x: -99, y: 356}
+      - {x: -42, y: 356}
+      - {x: -42, y: 402}
+      - {x: -84, y: 402}
+      - {x: -102, y: 375}
+    - - {x: -2, y: 402}
+      - {x: -22, y: 397}
+      - {x: -23, y: 387}
+      - {x: -23, y: 357}
+      - {x: -19, y: 356}
+      - {x: 37, y: 356}
+      - {x: 38, y: 361}
+      - {x: 38, y: 398}
+      - {x: 36, y: 402}
+    - - {x: 80, y: 402}
+      - {x: 61, y: 394}
+      - {x: 57, y: 374}
+      - {x: 57, y: 357}
+      - {x: 58, y: 356}
+      - {x: 118, y: 356}
+      - {x: 118, y: 396}
+      - {x: 111, y: 402}
+    - - {x: 159, y: 402}
+      - {x: 139, y: 395}
+      - {x: 137, y: 378}
+      - {x: 137, y: 360}
+      - {x: 139, y: 356}
+      - {x: 197, y: 356}
+      - {x: 198, y: 360}
+      - {x: 198, y: 400}
+      - {x: 197, y: 402}
+    - - {x: 234, y: 402}
+      - {x: 217, y: 398}
+      - {x: 217, y: 357}
+      - {x: 221, y: 356}
+      - {x: 281, y: 356}
+      - {x: 286, y: 361}
+      - {x: 286, y: 376}
+      - {x: 275, y: 402}
+    - - {x: 343, y: 402}
+      - {x: 319, y: 402}
+      - {x: 308, y: 389}
+      - {x: 298, y: 368}
+      - {x: 297, y: 360}
+      - {x: 301, y: 356}
+      - {x: 367, y: 356}
+      - {x: 367, y: 376}
+      - {x: 353, y: 400}
+    - - {x: 393, y: 402}
+      - {x: 381, y: 395}
+      - {x: 377, y: 381}
+      - {x: 377, y: 356}
+      - {x: 448, y: 356}
+      - {x: 448, y: 379}
+      - {x: 435, y: 402}
+    - - {x: -324, y: 507}
+      - {x: -343, y: 499}
+      - {x: -343, y: 443}
+      - {x: -340, y: 434}
+      - {x: -304, y: 434}
+      - {x: -286, y: 439}
+      - {x: -286, y: 491}
+      - {x: -296, y: 507}
+    - - {x: -493, y: 504}
+      - {x: -504, y: 496}
+      - {x: -504, y: 448}
+      - {x: -494, y: 436}
+      - {x: -455, y: 436}
+      - {x: -448, y: 457}
+      - {x: -448, y: 501}
+      - {x: -456, y: 504}
+    - - {x: -409, y: 507}
+      - {x: -424, y: 492}
+      - {x: -424, y: 458}
+      - {x: -411, y: 436}
+      - {x: -366, y: 436}
+      - {x: -366, y: 501}
+      - {x: -373, y: 507}
+    - - {x: -251, y: 507}
+      - {x: -264, y: 499}
+      - {x: -264, y: 454}
+      - {x: -256, y: 436}
+      - {x: -211, y: 436}
+      - {x: -208, y: 455}
+      - {x: -208, y: 498}
+      - {x: -217, y: 507}
+    - - {x: -102, y: 508}
+      - {x: -104, y: 501}
+      - {x: -104, y: 444}
+      - {x: -92, y: 436}
+      - {x: -61, y: 436}
+      - {x: -48, y: 441}
+      - {x: -48, y: 498}
+      - {x: -61, y: 508}
+    - - {x: -5, y: 507}
+      - {x: -20, y: 493}
+      - {x: -24, y: 479}
+      - {x: -24, y: 445}
+      - {x: -23, y: 441}
+      - {x: -9, y: 436}
+      - {x: 33, y: 436}
+      - {x: 34, y: 442}
+      - {x: 34, y: 499}
+      - {x: 26, y: 507}
+    - - {x: 67, y: 507}
+      - {x: 60, y: 499}
+      - {x: 57, y: 485}
+      - {x: 57, y: 455}
+      - {x: 74, y: 436}
+      - {x: 109, y: 436}
+      - {x: 112, y: 448}
+      - {x: 112, y: 502}
+      - {x: 103, y: 507}
+    - - {x: 151, y: 506}
+      - {x: 137, y: 501}
+      - {x: 137, y: 462}
+      - {x: 138, y: 455}
+      - {x: 154, y: 436}
+      - {x: 192, y: 436}
+      - {x: 192, y: 506}
+    - - {x: 240, y: 482}
+      - {x: 221, y: 474}
+      - {x: 217, y: 452}
+      - {x: 217, y: 436}
+      - {x: 278, y: 436}
+      - {x: 278, y: 475}
+      - {x: 271, y: 482}
+    - - {x: -165, y: 506}
+      - {x: -184, y: 498}
+      - {x: -184, y: 454}
+      - {x: -172, y: 437}
+      - {x: -136, y: 437}
+      - {x: -128, y: 443}
+      - {x: -128, y: 501}
+      - {x: -133, y: 506}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

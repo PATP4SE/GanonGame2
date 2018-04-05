@@ -18,7 +18,7 @@ public class Dash : MonoBehaviour {
 	private Rigidbody2D playerRig;
 	private SpriteRenderer playerSprite;
 	private Animator playerAnimator;
-	private PlayerMove playerMove;
+	private Player playerMove;
 
 	//======================================================
 	//private variables
@@ -42,7 +42,7 @@ public class Dash : MonoBehaviour {
 		playerRig = GetComponent<Rigidbody2D> ();
 		playerSprite = GetComponent<SpriteRenderer> ();
 		playerAnimator = GetComponent<Animator> ();
-		playerMove = gameObject.GetComponent<PlayerMove>();
+		playerMove = gameObject.GetComponent<Player>();
 		nextTimeToDash = 0;
 	}
 	
