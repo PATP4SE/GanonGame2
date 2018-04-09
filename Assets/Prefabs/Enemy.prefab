@@ -22,7 +22,9 @@ GameObject:
   - component: {fileID: 212502529183682020}
   - component: {fileID: 50028266959356382}
   - component: {fileID: 61756747216629316}
-  - component: {fileID: 114902040643007886}
+  - component: {fileID: 95289074926392634}
+  - component: {fileID: 114767527572862060}
+  - component: {fileID: 114303353324284106}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -88,7 +90,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6535044, y: 0.6899364}
   m_EdgeRadius: 0
---- !u!114 &114902040643007886
+--- !u!95 &95289074926392634
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1758267715032398}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d7765ab5fae472940bfd277a15199eef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114303353324284106
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -96,11 +115,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1758267715032398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c78909f31d457eb4e90e6d140fa31b61, type: 3}
+  m_Script: {fileID: 11500000, guid: 854f85dea2d4f5d4a94f9a24e3f42b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: 100
+  Defense: 0
   speed: 0.5
   decelerationPercentage: 30
+  attackRange: 1
+  attackPushForce: 1000
+  attackDamage: 50
+  rangeToAttack: 3
+  player: {fileID: 0}
+--- !u!114 &114767527572862060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1758267715032398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31af5334146a0746981f11c537cfab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyAnimator: {fileID: 95289074926392634}
   player: {fileID: 0}
 --- !u!212 &212502529183682020
 SpriteRenderer:

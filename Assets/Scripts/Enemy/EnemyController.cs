@@ -11,6 +11,9 @@ public class EnemyController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		if (player == null) 
+			player = GameObject.FindGameObjectWithTag ("Player");
+
 		enemy = GetComponent<Enemy> ();
 	}
 	
@@ -23,5 +26,6 @@ public class EnemyController : MonoBehaviour {
 		}
 
 		enemy.FollowPlayer ();
+		enemy.VerifyDamaged ();
 	}
 }

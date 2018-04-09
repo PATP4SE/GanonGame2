@@ -4,46 +4,43 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-	[SerializeField] private float attackDamage;
-	[SerializeField] private float attackRange;
 	[SerializeField] private float rangeToAttack;
-	[SerializeField] private float attackPushForce;
-
-	[SerializeField] private float speed;
-	[SerializeField] private float decelerationPercentage;
 	[SerializeField] private GameObject player;
-
-	private SpriteRenderer enemySprite;
-	private Rigidbody2D rigidBody;
-	private BoxCollider2D enemyCollider;
+	[SerializeField] private float secondsToFlash;
 
 
-	//public Enemy()
+	private bool damaged;
+	private float timeToRemoveFlash;
+	//private float timeToChangeColor;
+
+	//private const float SECONDS_BETWEEN_FLASHES = 0.1f;
+
 	void Start()
 	{
-		rigidBody = GetComponent<Rigidbody2D> ();
-		enemyCollider = GetComponent<BoxCollider2D> ();
-		Physics2D.IgnoreCollision (player.GetComponent<BoxCollider2D>(), enemyCollider);
+		damaged = false;
 
-		enemySprite = GetComponent<SpriteRenderer> ();
+		if (player == null) 
+			player = GameObject.FindGameObjectWithTag ("Player");
+
+		Physics2D.IgnoreCollision (player.GetComponent<BoxCollider2D>(), characterCollider);
 	}
 
 	public void FollowPlayer()
 	{
-		Utils.DecelerateX(ref rigidBody, decelerationPercentage);
+		Utils.DecelerateX(ref characterRigidbody, decelerationPercentage);
 
-		float posX = (player.transform.position.x - rigidBody.transform.position.x) > 0 ? 1 : -1;
+		float posX = (player.transform.position.x - characterRigidbody.transform.position.x) > 0 ? 1 : -1;
 
 		if (posX == 1) 
 		{
-			enemySprite.flipX = false;
+			characterSprite.flipX = false;
 		} 
 		else 
 		{
-			enemySprite.flipX = true;
+			characterSprite.flipX = true;
 		}
 
-		rigidBody.AddForce(new Vector3 ( posX * speed, 0), ForceMode2D.Impulse);
+		characterRigidbody.AddForce(new Vector3 ( posX * speed, 0), ForceMode2D.Impulse);
 	}
 
 	public void Attack()
@@ -108,11 +105,6 @@ public class Enemy : Character
 		}
 	}
 
-	public float GetAttackRange()
-	{
-		return attackRange;
-	}
-
 	public float GetRangeToAttack()
 	{
 		return rangeToAttack;
@@ -120,10 +112,31 @@ public class Enemy : Character
 
 	public override void LoseHealth(float damage)
 	{
-		this.Health -= (damage - (this.Defense / 2));
-		//Start losing health animation
-		if (this.Health <= 0)
-			Dies ();
+		base.LoseHealth(damage);
+
+		characterSprite.color = Color.red;
+		damaged = true;
+		timeToRemoveFlash = Time.time + secondsToFlash;
+		//timeToChangeColor = Time.time + SECONDS_BETWEEN_FLASHES;
+	}
+
+
+	public void VerifyDamaged()
+	{
+		if(damaged)
+		{
+//			if (Time.time >= timeToChangeColor) 
+//			{
+//				timeToChangeColor = Time.time + SECONDS_BETWEEN_FLASHES;
+//				characterSprite.color = (characterSprite.color == Color.white) ? Color.red : Color.white;
+//			}
+
+			if(Time.time >= timeToRemoveFlash)
+			{
+				damaged = false;
+				characterSprite.color = Color.white;
+			}
+		}
 	}
 
 	public override void Dies()

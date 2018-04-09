@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour {
 			attacked = false;
 		}
 
-		if (Input.GetKey (KeyCode.E))
+		if (Input.GetKey (KeyCode.Mouse0) || Input.GetKey (KeyCode.E))
 		{
 			attacked = true;
 			playerAnimator.SetTrigger("Attack");
