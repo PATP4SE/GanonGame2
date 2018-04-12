@@ -18,6 +18,11 @@ public class Player : Character
 	[SerializeField] private float fallingMultiplier;
 	[SerializeField] private int numberOfJumps;
 
+	[SerializeField] private float invulnerabilityAfterHitDuration;
+	[SerializeField] private float secondsBetweenFlashes;
+
+	[SerializeField] private GameObject dustParticles;
+
 	//======================================================
 	// Private variables
 	//======================================================
@@ -25,7 +30,12 @@ public class Player : Character
 	private bool isJumping = false;
 	private bool isFalling = false;
 
+	private bool damaged;
+	private float timeToRemoveFlash;
+	private float timeToChangeColor;
+
 	void Start () {
+		damaged = false;
 	}
 
 	public void UpdatePlayer()
@@ -144,17 +154,63 @@ public class Player : Character
 
 	}
 
+	public override void LoseHealth(float damage)
+	{
+		if (!damaged) 
+		{
+			base.LoseHealth (damage);
+		
+			characterSprite.color = Color.red;
+			damaged = true;
+			timeToRemoveFlash = Time.time + invulnerabilityAfterHitDuration;
+			timeToChangeColor = Time.time + secondsBetweenFlashes;
+		}
+	}
+
+	public void VerifyDamaged()
+	{
+		if(damaged)
+		{
+			if (Time.time >= timeToChangeColor) 
+			{
+				timeToChangeColor = Time.time + secondsBetweenFlashes;
+				characterSprite.color = (characterSprite.color == Color.white) ? Color.red : Color.white;
+			}
+
+			if(Time.time >= timeToRemoveFlash)
+			{
+				damaged = false;
+				characterSprite.color = Color.white;
+			}
+		}
+	}
+
 	public override void Dies()
 	{
 		GameObject.Destroy (gameObject);
 	}
 
-
+	public bool IsInvulnerable()
+	{
+		return damaged;
+	}
+		
 	void OnCollisionEnter2D(Collision2D coll) 
 	{
 		jumpNumber = numberOfJumps;
 		isJumping = false;
 		isFalling = false;
+
+		GameObject dusts = GameObject.Instantiate<GameObject> (dustParticles, transform.position, new Quaternion ());
+
+		//gameObject.GetComponentsInChildren<ParticleSystem> ()[0].Play(true);
+		//gameObject.GetComponentsInChildren<ParticleSystem> ()[1].Play(true);
+		//dusts.GetComponentsInChildren<ParticleSystem> ()[0].Play(true);
+		//dusts.GetComponentsInChildren<ParticleSystem> ()[1].Play(true);
+		//dusts.GetComponentsInChildren<ParticleSystem> ()[2].Play(true);
+		//dusts.GetComponentsInChildren<ParticleSystem> ()[1].stop
+
+
 		if (coll.gameObject.tag == "Enemy") 
 		{
 			Physics2D.IgnoreCollision (characterCollider, coll.collider);

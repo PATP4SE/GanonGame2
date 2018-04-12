@@ -147,8 +147,11 @@ public class Enemy : Character
 	#region Private Methods
 	private void PushPlayerOnAttack(Collider2D playerCollider)
 	{
-		Vector2 direction = playerCollider.GetComponent<Rigidbody2D>().transform.position - this.transform.position;
-		playerCollider.GetComponent<Rigidbody2D>().AddForceAtPosition(direction.normalized * attackPushForce, this.transform.position);
+		if (!playerCollider.gameObject.GetComponent<Player> ().IsInvulnerable ()) 
+		{
+			Vector2 direction = playerCollider.GetComponent<Rigidbody2D> ().transform.position - this.transform.position;
+			playerCollider.GetComponent<Rigidbody2D> ().AddForceAtPosition (direction.normalized * attackPushForce, this.transform.position);
+		}
 	}
 	#endregion
 
