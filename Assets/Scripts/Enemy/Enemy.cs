@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿#define DEBUG
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -63,9 +65,11 @@ public class Enemy : Character
 		RaycastHit2D[] midRay = Physics2D.RaycastAll (midPos, new Vector2 (dir, 0), attackRange);
 		RaycastHit2D[] lowRay = Physics2D.RaycastAll (lowPos, new Vector2 (dir, 0), attackRange);
 
+		#if DEBUG
 		Debug.DrawRay (highPos, direction);
 		Debug.DrawRay (midPos, direction);
 		Debug.DrawRay (lowPos, direction);
+		#endif
 
 		Collider2D colliderHit = null;
 
@@ -74,7 +78,9 @@ public class Enemy : Character
 			if(ray.collider != null && ray.collider.gameObject.tag == "Player")
 			{
 				colliderHit = ray.collider;
+				#if DEBUG
 				Debug.Log(ray.collider.gameObject.tag);
+				#endif
 				PushPlayerOnAttack (ray.collider);
 			}
 		}
@@ -84,7 +90,9 @@ public class Enemy : Character
 			if(ray.collider != null && ray.collider.gameObject.tag == "Player")
 			{
 				colliderHit = ray.collider;
+				#if DEBUG
 				Debug.Log(ray.collider.gameObject.tag);
+				#endif
 				PushPlayerOnAttack (ray.collider);
 			}
 		}
@@ -94,7 +102,9 @@ public class Enemy : Character
 			if(ray.collider != null && ray.collider.gameObject.tag == "Player")
 			{
 				colliderHit = ray.collider;
+				#if DEBUG
 				Debug.Log(ray.collider.gameObject.tag);
+				#endif
 				PushPlayerOnAttack (ray.collider);
 			}
 		}

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿#define DEBUG
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -79,8 +81,11 @@ public class Dash : MonoBehaviour {
 		if (isDashing && ((playerMove.direction == 1 && playerRig.velocity.x <= 9) || (playerMove.direction == 0 && playerRig.velocity.x >= -9)))
 		{
 			isDashing = false;
+
+			#if DEBUG
 			Debug.Log ("stop dashing");
 			Debug.Log (playerRig.velocity.x);
+			#endif
 		}
 
 	}

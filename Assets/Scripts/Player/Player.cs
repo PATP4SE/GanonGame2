@@ -23,6 +23,7 @@ public class Player : Character
 
 	[SerializeField] private GameObject dustParticles;
 
+	[SerializeField] private BoxCollider2D bottomCollider;
 	//======================================================
 	// Private variables
 	//======================================================
@@ -108,7 +109,10 @@ public class Player : Character
 		{
 			if(ray.collider != null && ray.collider.gameObject.tag == "Enemy")
 			{
+				#if DEBUG
 				Debug.Log(ray.collider.gameObject.tag);
+				#endif
+
 				Enemy enemy = ray.collider.gameObject.GetComponent<Enemy> ();
 
 				PushEnemyOnAttack (ray.collider);
@@ -122,7 +126,10 @@ public class Player : Character
 		{
 			if(ray.collider != null && ray.collider.gameObject.tag == "Enemy")
 			{
+				#if DEBUG
 				Debug.Log(ray.collider.gameObject.tag);
+				#endif
+
 				Enemy enemy = ray.collider.gameObject.GetComponent<Enemy> ();
 
 				PushEnemyOnAttack (ray.collider);
@@ -136,7 +143,10 @@ public class Player : Character
 		{
 			if(ray.collider != null && ray.collider.gameObject.tag == "Enemy")
 			{
+				#if DEBUG
 				Debug.Log(ray.collider.gameObject.tag);
+				#endif
+
 				Enemy enemy = ray.collider.gameObject.GetComponent<Enemy> ();
 
 				PushEnemyOnAttack (ray.collider);
@@ -156,6 +166,7 @@ public class Player : Character
 
 	public override void LoseHealth(float damage)
 	{
+		
 		if (!damaged) 
 		{
 			base.LoseHealth (damage);
@@ -194,33 +205,30 @@ public class Player : Character
 	{
 		return damaged;
 	}
-		
-	void OnCollisionEnter2D(Collision2D coll) 
+
+
+	void OnTriggerEnter2D(Collider2D collider)
 	{
 		jumpNumber = numberOfJumps;
 		isJumping = false;
 		isFalling = false;
 
-		GameObject dusts = GameObject.Instantiate<GameObject> (dustParticles, transform.position, new Quaternion ());
-
-		//gameObject.GetComponentsInChildren<ParticleSystem> ()[0].Play(true);
-		//gameObject.GetComponentsInChildren<ParticleSystem> ()[1].Play(true);
-		//dusts.GetComponentsInChildren<ParticleSystem> ()[0].Play(true);
-		//dusts.GetComponentsInChildren<ParticleSystem> ()[1].Play(true);
-		//dusts.GetComponentsInChildren<ParticleSystem> ()[2].Play(true);
-		//dusts.GetComponentsInChildren<ParticleSystem> ()[1].stop
+		GameObject.Instantiate<GameObject> (dustParticles, transform.position, new Quaternion ());
+	}
 
 
+	void OnTriggerExit2D(Collider2D collider)
+	{
+		if (!isJumping && !characterCollider.IsTouchingLayers())
+			jumpNumber--;
+	}
+
+	void OnCollisionEnter2D(Collision2D coll) 
+	{
 		if (coll.gameObject.tag == "Enemy") 
 		{
 			Physics2D.IgnoreCollision (characterCollider, coll.collider);
 		}
-	}
-
-	void OnCollisionExit2D(Collision2D coll) 
-	{
-		if (!isJumping && !characterCollider.IsTouchingLayers())
-			jumpNumber--;
 	}
 
 	#region Private Methods
