@@ -10,6 +10,7 @@ public class Dash : MonoBehaviour {
 	//Serialized variables
 	//======================================================
 	[SerializeField] private float dashSpeed;
+	[SerializeField] private float dashDistance;
 	[SerializeField] private float cooldown;
 	[SerializeField] private float lagTimeBeforeDash;
 	//[SerializeField] private float decelerationPercentage;
@@ -32,12 +33,14 @@ public class Dash : MonoBehaviour {
 	private bool dashPressed = false;
 
 	private float nextTimeToDashBeforeLag;
+	private float initialPositionX;
 
 
 	//======================================================
 	//Constants
 	//======================================================
-	//private const int NUMBER_OF_JUMPS = numberOfJumps;
+	private const int AFTER_DASHING_VELOCITY_X = 9;
+
 
 	// Use this for initialization
 	void Start () {
@@ -56,38 +59,38 @@ public class Dash : MonoBehaviour {
 			lagAndDash();
 		}
 
-		if(Time.time >= nextTimeToDashBeforeLag && dashPressed)
+		if(Time.time >= nextTimeToDashBeforeLag && dashPressed && !isDashing)
 		{
 			isDashing = true;
 			nextTimeToDash = Time.time + cooldown;
-			if(playerMove.direction == 1)
-			{
-				playerRig.AddForce (new Vector2 (dashSpeed, 0), ForceMode2D.Impulse);
-			}
-			else
-			{
-				playerRig.AddForce (new Vector2 (-dashSpeed, 0), ForceMode2D.Impulse);
-			}
+			initialPositionX = transform.position.x;
+
 			dashPressed = false;
 		}
 
 		if(isDashing)
 		{
-			dashingVelocity = playerRig.velocity;
-			//Debug.Log("captured volicity: " + dashingVelocity.x + ", " + dashingVelocity.y);
-			capturedVelocity = true;
+			playerRig.AddForce (new Vector2 (playerMove.direction * dashSpeed, 0), ForceMode2D.Impulse);
+
+			if (transform.position.x >= initialPositionX + dashDistance || transform.position.x <= initialPositionX - dashDistance)
+				stopDashing ();
+
+			if ((playerMove.direction == 1 && playerRig.velocity.x <= AFTER_DASHING_VELOCITY_X) || (playerMove.direction == -1 && playerRig.velocity.x >= -AFTER_DASHING_VELOCITY_X))
+			{
+				isDashing = false;
+
+				#if DEBUG
+				Debug.Log ("stop dashing");
+				Debug.Log (playerRig.velocity.x);
+				#endif
+			}
 		}
+	}
 
-		if (isDashing && ((playerMove.direction == 1 && playerRig.velocity.x <= 9) || (playerMove.direction == 0 && playerRig.velocity.x >= -9)))
-		{
-			isDashing = false;
-
-			#if DEBUG
-			Debug.Log ("stop dashing");
-			Debug.Log (playerRig.velocity.x);
-			#endif
-		}
-
+	private void stopDashing()
+	{
+		isDashing = false;
+		playerRig.velocity = new Vector2 (9 * playerMove.direction, playerRig.velocity.y);
 	}
 
 	private void lagAndDash()
@@ -95,13 +98,4 @@ public class Dash : MonoBehaviour {
 		nextTimeToDashBeforeLag = Time.time + lagTimeBeforeDash;
 		dashPressed = true;
 	}
-
-//	void OnCollisionEnter2D(Collision2D coll) 
-//	{
-//		if (coll.gameObject.tag == "Enemy") 
-//		{
-//			
-//		}
-//	}
-
 }

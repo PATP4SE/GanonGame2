@@ -52,7 +52,7 @@ public class Player : Character
 
 	public void MoveLeft()
 	{
-		direction = 0;
+		direction = -1;
 		characterSprite.flipX = true;
 		characterRigidbody.AddForce (new Vector2 (-speed, 0), ForceMode2D.Impulse);
 	}
@@ -206,7 +206,7 @@ public class Player : Character
 		return damaged;
 	}
 
-
+	//Method called when bottomCollider hits
 	void OnTriggerEnter2D(Collider2D collider)
 	{
 		jumpNumber = numberOfJumps;
